@@ -1,0 +1,30 @@
+/* login page */
+@media (max-width: 768px) {
+  .login-section {
+    padding: 2rem 0;
+  }
+  .right-img {
+    display: none;
+  }
+}
+
+/* footer section */
+@media (max-width: 768px) {
+  .page-head-title {
+    font-size: 2rem;
+  }
+  .page-head-image {
+    margin-top: 2rem;
+    max-width: 200px;
+  }
+}
+/* cancellation page */
+    @media (max-width: 768px) {
+      .cancel-title {
+        font-size: 1.5rem;
+      }
+      .cancel-img-wrapper {
+        max-width: 220px;
+        padding: 1.5rem;
+      }
+    }
