@@ -89,12 +89,12 @@
           <!-- Left text content -->
           <div class="col-md-6">
             <h2 class="page-head-title">
-              CHANGED YOUR<br />
-              MIND? <span>NO WORRIES</span>
+              Your Green Picks 
+ <br />
+              Are <span>Ready</span>
             </h2>
             <p class="page-head-text">
-              We understand plans change. Review our cancellation policy or
-              reach out — we’re here to help smoothly.
+              Review your leafy finds, update quantities, or head to checkout — your plant paradise is just a step away.
             </p>
           </div>
 
@@ -115,103 +115,141 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Wishlists</li>
+          <li class="breadcrumb-item active" aria-current="page">Cart</li>
         </ol>
       </nav>
     </div>
     <section>
-        <div class="container my-5">
-  <div class="row">
-    <!-- Cart Items -->
-    <div class="col-lg-8">
-      <h4 class="mb-4">Products</h4>
-      <div class="row fw-bold cart-table">
-        <div class="col-6">Products</div>
-        <div class="col-2">Price</div>
-        <div class="col-2">Quantity</div>
-        <div class="col-2">Total</div>
-      </div>
+      <div class="container py-5">
+        <div class="row">
+          <!-- Cart Section -->
+          <div class="col-lg-8">
+            <h5 class="mb-4 fw-bold">Products</h5>
 
-      <!-- Item 1 -->
-      <div class="row align-items-center cart-item">
-        <div class="col-6 d-flex align-items-center gap-3">
-          <img src="images/indoor-1.png" alt="Peace Lily">
-          <div>
-            <div class="fw-semibold">Peace Lily</div>
-            <div class="sku">SKU: 1995751877966</div>
+            <!-- Product Item -->
+            <div
+              class="d-flex align-items-center justify-content-between bg-white p-3 mb-3 rounded shadow-sm"
+            >
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  src="images/indoor-1.png"
+                  alt="plant"
+                  width="60"
+                />
+                <div>
+                  <h6 class="mb-0 fw-semibold">Peace Lily</h6>
+                  <small class="text-tertiary">SKU: 1995751877966</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-4">
+                <span class="fw-semibold">$12.05</span>
+                <div class="d-flex align-items-center gap-2">
+                  <button class="btn btn-sm btn-primary rounded-circle">
+                    -
+                  </button>
+                  <span>1</span>
+                  <button class="btn btn-sm btn-primary rounded-circle">
+                    +
+                  </button>
+                </div>
+                <span class="fw-semibold">$12.05</span>
+                <button class="btn">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Duplicate Product Item -->
+            <div
+              class="d-flex align-items-center justify-content-between bg-white p-3 mb-3 rounded shadow-sm"
+            >
+              <div class="d-flex align-items-center gap-3">
+                <img
+                  src="images/indoor-2.png"
+                  alt="plant"
+                  width="60"
+                />
+                <div>
+                  <h6 class="mb-0 fw-semibold">Peace Lily</h6>
+                  <small class="text-tertiary">SKU: 1995751877966</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-4">
+                <span class="fw-semibold">$12.05</span>
+                <div class="d-flex align-items-center gap-2">
+                  <button class="btn btn-sm btn-primary rounded-circle">
+                    -
+                  </button>
+                  <span>1</span>
+                  <button class="btn btn-sm btn-primary rounded-circle">
+                    +
+                  </button>
+                </div>
+                <span class="fw-semibold">$12.05</span>
+                <button class="btn">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cart Totals -->
+          <div class="col-lg-4">
+            <div class="bg-white p-4 shadow-sm rounded">
+              <h5 class="fw-bold mb-4">Cart Totals</h5>
+
+              <!-- Coupon -->
+              <div class="mb-3">
+                <label class="form-label">Coupon Apply</label>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter coupon code here..."
+                  />
+                  <button class="btn btn-primary">Apply</button>
+                </div>
+              </div>
+
+              <!-- Subtotal -->
+              <div class="d-flex justify-content-between py-2 border-bottom">
+                <span>Subtotal</span>
+                <strong>$2,683.00</strong>
+              </div>
+
+              <!-- Discount -->
+              <div class="d-flex justify-content-between py-2 border-bottom">
+                <span>Coupon Discount</span>
+                <strong>(-) 0.00</strong>
+              </div>
+
+              <!-- Shipping -->
+              <div class="d-flex justify-content-between py-2 border-bottom">
+                <span>Shipping</span>
+                <strong>$16.00</strong>
+              </div>
+
+              <div class="mt-2">
+                <a href="#" class="text-decoration-underline text-success small"
+                  >View shipping charge</a
+                >
+              </div>
+
+              <!-- Total -->
+              <div class="d-flex justify-content-between mt-4">
+                <h6 class="fw-bold">Total</h6>
+                <h6 class="fw-bold text-success">$2,699.00</h6>
+              </div>
+
+              <button class="btn btn-primary w-100 mt-3">
+                Proceed To Checkout
+              </button>
+            </div>
           </div>
         </div>
-        <div class="col-2">$12.05</div>
-        <div class="col-2 d-flex align-items-center">
-          <button class="quantity-btn">−</button>
-          <span class="quantity-number">1</span>
-          <button class="quantity-btn">+</button>
-        </div>
-        <div class="col-2 d-flex justify-content-between align-items-center">
-          $12.05
-          <i class="bi bi-trash delete-icon"></i>
-        </div>
       </div>
-
-      <!-- Item 2 -->
-      <div class="row align-items-center cart-item">
-        <div class="col-6 d-flex align-items-center gap-3">
-          <img src="images/indoor-1.png" alt="Peace Lily">
-          <div>
-            <div class="fw-semibold">Peace Lily</div>
-            <div class="sku">SKU: 1995751877966</div>
-          </div>
-        </div>
-        <div class="col-2">$12.05</div>
-        <div class="col-2 d-flex align-items-center">
-          <button class="quantity-btn">−</button>
-          <span class="quantity-number">1</span>
-          <button class="quantity-btn">+</button>
-        </div>
-        <div class="col-2 d-flex justify-content-between align-items-center">
-          $12.05
-          <i class="bi bi-trash delete-icon"></i>
-        </div>
-      </div>
-
-      <!-- Item 3 -->
-      <div class="row align-items-center cart-item">
-        <div class="col-6 d-flex align-items-center gap-3">
-          <img src="images/indoor-1.png" alt="Peace Lily">
-          <div>
-            <div class="fw-semibold">Peace Lily</div>
-            <div class="sku">SKU: 1995751877966</div>
-          </div>
-        </div>
-        <div class="col-2">$12.05</div>
-        <div class="col-2 d-flex align-items-center">
-          <button class="quantity-btn">−</button>
-          <span class="quantity-number">1</span>
-          <button class="quantity-btn">+</button>
-        </div>
-        <div class="col-2 d-flex justify-content-between align-items-center">
-          $12.05
-          <i class="bi bi-trash delete-icon"></i>
-        </div>
-      </div>
-
-      <!-- Add to Cart Button -->
-      <div class="mt-4">
-        <button class="btn btn-add w-100">Add To Cart</button>
-      </div>
-    </div>
-
-    <!-- Sidebar -->
-    <div class="col-lg-4 mt-5 mt-lg-0">
-      <div class="sale-box">
-        <div class="sale-title">Super Sale</div>
-        <div class="sale-subtitle">UP TO 75% OFF</div>
-        <img src="images/outdoor-6.png" alt="Sale Plant">
-      </div>
-    </div>
-  </div>
-</div>
     </section>
+
     <section>
       <div class="container my-5">
         <!-- Section Heading -->
@@ -227,7 +265,11 @@
           <!-- Card 1 -->
           <div class="col-md-4">
             <div class="card product-card text-center">
-              <img src="images/indoor-1.png" alt="Peace Lily" class="img-fluid" />
+              <img
+                src="images/indoor-1.png"
+                alt="Peace Lily"
+                class="img-fluid"
+              />
               <h5 class="product-title">Peace Lily</h5>
               <div class="rating">★★★★☆</div>
               <p class="product-desc">
@@ -244,7 +286,11 @@
           <!-- Card 2 -->
           <div class="col-md-4">
             <div class="card product-card text-center">
-              <img src="images/indoor-2.png" alt="Peace Lily" class="img-fluid" />
+              <img
+                src="images/indoor-2.png"
+                alt="Peace Lily"
+                class="img-fluid"
+              />
               <h5 class="product-title">Peace Lily</h5>
               <div class="rating">★★★★☆</div>
               <p class="product-desc">
@@ -261,7 +307,11 @@
           <!-- Card 3 -->
           <div class="col-md-4">
             <div class="card product-card text-center">
-              <img src="images/indoor-3.png" alt="Peace Lily" class="img-fluid" />
+              <img
+                src="images/indoor-3.png"
+                alt="Peace Lily"
+                class="img-fluid"
+              />
               <h5 class="product-title">Peace Lily</h5>
               <div class="rating">★★★★☆</div>
               <p class="product-desc">
