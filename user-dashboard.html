@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UrbanRoots</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="index.html">
+          <img src="images/logo.png" alt="UrbanRoots" height="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="categories.html">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">All Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+
+          <!-- Right Side Icons -->
+          <div class="d-flex align-items-center gap-3">
+            <a href="wishlist.html" class="position-relative text-dark">
+              <i class="bi bi-heart fs-5"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
+                >2</span
+              >
+            </a>
+            <a href="cart.html" class="position-relative text-dark">
+              <i class="bi bi-cart fs-5"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
+                >3</span
+              >
+            </a>
+            <a href="login.html" class="btn btn-primary px-3">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-head-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left text content -->
+          <div class="col-md-6">
+            <h2 class="page-head-title">
+              CHANGED YOUR<br />
+              MIND? <span>NO WORRIES</span>
+            </h2>
+            <p class="page-head-text">
+              We understand plans change. Review our cancellation policy or
+              reach out — we’re here to help smoothly.
+            </p>
+          </div>
+
+          <!-- Right image -->
+          <div class="col-md-6 text-md-end text-center">
+            <img
+              src="images/page-head.png"
+              alt="Hanging Plant"
+              class="page-head-image img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Cancel Order
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="user-dashboard">
+      <div class="container py-5 account-container">
+        <h1
+          class="mb-4"
+          style="
+            font-family: var(--font-secondary);
+            font-weight: 600;
+            color: var(--secondary-color);
+          "
+        >
+          My Account
+        </h1>
+
+        <div class="row">
+          <!-- Sidebar Navigation -->
+          <div class="col-md-3 mb-4">
+            <div class="sidebar">
+              <div class="sidebar-item active" data-tab="account-details">
+                Account Details
+              </div>
+              <div class="sidebar-item" data-tab="address">Address</div>
+              <div class="sidebar-item" data-tab="orders">Orders</div>
+              <div class="sidebar-item" data-tab="wishlists">Wishlists</div>
+              <div class="sidebar-item" data-tab="logout">Logout</div>
+            </div>
+          </div>
+
+          <!-- Main Content Area -->
+          <div class="col-md-9">
+            <div class="content-card">
+              <!-- Account Details Tab -->
+              <div id="account-details" class="tab-content active">
+                <h3 class="section-title">Personal Information</h3>
+
+                <form>
+                  <div class="row mb-3">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <label for="firstName" class="form-label required-field"
+                        >First Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="firstName"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="lastName" class="form-label required-field"
+                        >Last Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="lastName"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row mb-3">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <label for="email" class="form-label required-field"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="phone" class="form-label">Phone Number</label>
+                      <input type="tel" class="form-control" id="phone" />
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary mt-3">
+                    SAVE
+                  </button>
+                </form>
+              </div>
+
+              <div id="address" class="tab-content">
+                <div class="address-header">
+                  <h3 class="section-title">Billing Address</h3>
+                </div>
+
+                <form>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label
+                        for="billingFirstName"
+                        class="form-label required-field"
+                        >First Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="billingFirstName"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label
+                        for="billingLastName"
+                        class="form-label required-field"
+                        >Last Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="billingLastName"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                      <label
+                        for="billingCountry"
+                        class="form-label required-field"
+                        >Country / Region</label
+                      >
+                      <select class="form-select" id="billingCountry" required>
+                        <option value="" selected disabled>
+                          Select Country
+                        </option>
+                        <option value="US">United States</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="CA">Canada</option>
+                        <option value="AU">Australia</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="billingCity" class="form-label required-field"
+                        >Town / City</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="billingCity"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label
+                        for="billingState"
+                        class="form-label required-field"
+                        >State</label
+                      >
+                      <select class="form-select" id="billingState" required>
+                        <option value="" selected disabled>Select State</option>
+                        <option value="CA">California</option>
+                        <option value="NY">New York</option>
+                        <option value="TX">Texas</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="billingZip" class="form-label required-field"
+                        >Zip</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="billingZip"
+                        required
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <label
+                        for="billingStreet"
+                        class="form-label required-field"
+                        >Street Address</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="billingStreet"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">SAVE</button>
+                </form>
+              </div>
+
+              <!-- Orders Tab - Updated with Product Table -->
+              <div id="orders" class="tab-content active">
+                <h3 class="section-title">Your Orders</h3>
+
+                <table class="orders-table">
+                  <thead>
+                    <tr>
+                      <th>Products</th>
+                      <th>Price</th>
+                      <th>Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="product-name">Peace Lily</div>
+                        <div class="product-sku">SICL:198575i877966</div>
+                      </td>
+                      <td class="price">$12.05</td>
+                      <td class="total">$12.05</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="product-name">Peace Lily</div>
+                        <div class="product-sku">SICL:198575i877966</div>
+                      </td>
+                      <td class="price">$12.05</td>
+                      <td class="total">$12.05</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="product-name">Peace Lily</div>
+                        <div class="product-sku">SICL:198575i877966</div>
+                      </td>
+                      <td class="price">$12.05</td>
+                      <td class="total">$12.05</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- Wishlists Tab - Updated with Product List -->
+              <div id="wishlists" class="tab-content active">
+                <h3 class="section-title">Your Wishlists</h3>
+
+                <div class="wishlist-items">
+                  <div class="wishlist-item">
+                    <div class="wishlist-product">Peace Lily</div>
+                    <div class="wishlist-price">$12.05</div>
+                    <div class="wishlist-actions">
+                      <button class="btn-outline">Remove</button>
+                    </div>
+                  </div>
+                  <div class="wishlist-item">
+                    <div class="wishlist-product">Peace Lily</div>
+                    <div class="wishlist-price">$12.05</div>
+                    <div class="wishlist-actions">
+                      <button class="btn-outline">Remove</button>
+                    </div>
+                  </div>
+                  <div class="wishlist-item">
+                    <div class="wishlist-product">Peace Lily</div>
+                    <div class="wishlist-price">$12.05</div>
+                    <div class="wishlist-actions">
+                      <button class="btn-outline">Remove</button>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="btn btn-primary create-wishlist-btn">
+                  Create New Wishlist
+                </button>
+              </div>
+
+              <div id="logout" class="tab-content">
+                <h3 class="section-title">Logout</h3>
+                <p>Are you sure you want to logout?</p>
+                <button class="btn btn-primary">Confirm Logout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-3">
+            <div class="footer-logo">
+              <img
+                src="images/logo.png"
+                alt="Urbanroots"
+                height="40"
+                class="me-2"
+              />
+            </div>
+            <p class="footer-text">
+              Nurture your space, one plant at a time. From leaf to root, we’re
+              here to grow with you.
+            </p>
+            <div class="social-icons mt-3">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-3">
+            <h5 class="footer-heading">Quick Links</h5>
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="shop.html" class="footer-link">All Products</a>
+            <a href="category.html" class="footer-link">Categories</a>
+            <!-- <a href="#" class="footer-link">Best Products</a> -->
+            <a href="contact.html" class="footer-link">Contact Us</a>
+          </div>
+
+          <!-- Information -->
+          <div class="col-md-3">
+            <h5 class="footer-heading">Information</h5>
+            <a href="about.html" class="footer-link">About us</a>
+            <a href="wishlist.html" class="footer-link">Wishlists</a>
+            <a href="cart.html" class="footer-link">Cart</a>
+            <a href="cancellation.html" class="footer-link">Cancellation</a>
+          </div>
+
+          <div class="col-md-3">
+            <h5 class="footer-heading">Get in touch</h5>
+            <p class="footer-text mb-1">Kolkata, India</p>
+            <p class="footer-text mb-1">web.abhiaacharya@gmail.com</p>
+            <p class="footer-text mb-0">+91 957 0258 922</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom text-center mt-4">
+          Copyright © 2025 Abhishek Acharya
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
