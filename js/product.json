@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Peace Lily",
+      "price": 12.05,
+      "originalPrice": 15.99,
+      "category": "indoor",
+      "size": "medium",
+      "image": "../images/indoor.png",
+      "description": "Peace lilies have lush, dark green leaves that can grow quite large, and they produce snowy white flowers.",
+      "rating": 5,
+      "isNew": true,
+      "onSale": false
+    },
+    {
+      "id": 2,
+      "name": "Snake Plant",
+      "price": 18.50,
+      "originalPrice": 24.99,
+      "category": "indoor",
+      "size": "small",
+      "image": "../images/indoor-1.png",
+      "description": "Extremely durable and easy to grow, perfect for beginners.",
+      "rating": 4,
+      "isNew": false,
+      "onSale": true
+    },
+    {
+      "id": 3,
+      "name": "Monstera Deliciosa",
+      "price": 34.99,
+      "originalPrice": 39.99,
+      "category": "indoor",
+      "size": "large",
+      "image": "../images/indoor.png",
+      "description": "Tropical plant with large, glossy leaves with natural holes.",
+      "rating": 5,
+      "isNew": false,
+      "onSale": true
+    },
+    {
+      "id": 4,
+      "name": "Rose Bush",
+      "price": 22.75,
+      "originalPrice": 22.75,
+      "category": "outdoor",
+      "size": "medium",
+      "image": "../images/indoor.png",
+      "description": "Classic flowering shrub with fragrant blooms.",
+      "rating": 4,
+      "isNew": true,
+      "onSale": false
+    },
+    {
+      "id": 5,
+      "name": "Lavender",
+      "price": 14.99,
+      "originalPrice": 14.99,
+      "category": "outdoor",
+      "size": "small",
+      "image": "../images/indoor.png",
+      "description": "Fragrant purple flowers perfect for sunny spots.",
+      "rating": 5,
+      "isNew": false,
+      "onSale": false
+    },
+    {
+      "id": 6,
+      "name": "Terracotta Pot",
+      "price": 8.99,
+      "originalPrice": 10.99,
+      "category": "pots",
+      "size": "medium",
+      "image": "../images/indoor.png",
+      "description": "Classic clay pot with excellent drainage.",
+      "rating": 4,
+      "isNew": false,
+      "onSale": true
+    },
+    {
+      "id": 7,
+      "name": "Pruning Shears",
+      "price": 15.50,
+      "originalPrice": 15.50,
+      "category": "tools",
+      "size": "small",
+      "image": "../images/indoor.png",
+      "description": "Sharp, durable shears for precise plant care.",
+      "rating": 5,
+      "isNew": true,
+      "onSale": false
+    },
+    {
+      "id": 8,
+      "name": "Herb Seed Kit",
+      "price": 12.99,
+      "originalPrice": 16.99,
+      "category": "seeds",
+      "size": "small",
+      "image": "../images/indoor.png",
+      "description": "Grow your own basil, parsley, and thyme.",
+      "rating": 4,
+      "isNew": false,
+      "onSale": true
+    }
+  ]
+}
