@@ -46,12 +46,22 @@ const renderProducts = (products) => {
         productCard.className = 'col-md-4';
         productCard.innerHTML = `
             <div class="product-card">
+            ${product.isNew ? '<span class="badge bg-success">New</span>' : ''}
+            ${product.onSale ? '<span class="badge bg-danger">Sale</span>' : ''}
+            
                 <img src="./images/${product.image}" alt="${product.name}" />
-                <h6>${product.name}</h6>
-                <div class="d-flex align-items-center justify-content-around">
-                    <p class="product-price">$${product.price}</p>
-                    <button class="btn-view" onclick="viewDetails(${product.id})">View More</button>
+                <div class="card-body product-body">
+              <h3 class="product-title">${product.name}</h3>
+              <div class="product-rating">${product.rating}</div>
+              <p class="product-description">${product.description}</p>
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex flex-column align-items-center p-2">
+                  ${product.originalPrice ? `<del>$${product.originalPrice.toFixed(2)}</del>` : ''}
+                  <p class="product-price mb-0 ms-2">$${product.price.toFixed(2)}</p>
                 </div>
+                <button class="btn btn-secondary" onclick="viewDetails(${product.id})">View More</button>
+              </div>
+            </div>
             </div>
         `;
         productsContainer.appendChild(productCard);

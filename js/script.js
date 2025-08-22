@@ -62,3 +62,5 @@ $('.big-img').mouseleave(function(){
     top: 0,
   });
 });
+
+

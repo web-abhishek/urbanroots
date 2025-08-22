@@ -27,61 +27,42 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
-      <div class="container">
-        <a class="navbar-brand fw-bold text-primary" href="index.html">
-          <img src="images/logo.png" alt="UrbanRoots" height="40" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mainNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-2">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="index.html">
+        <img src="images/logo.png" alt="UrbanRoots" height="40" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="categories.html">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">All Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
 
-        <div class="collapse navbar-collapse" id="mainNavbar">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="categories.html">Categories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html">All Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-
-          <!-- Right Side Icons -->
-          <div class="d-flex align-items-center gap-3">
-            <a href="wishlist.html" class="position-relative text-dark">
-              <i class="bi bi-heart fs-5"></i>
-              <span
-                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
-                >2</span
-              >
-            </a>
-            <a href="cart.html" class="position-relative text-dark">
-              <i class="bi bi-cart fs-5"></i>
-              <span
-                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary"
-                >3</span
-              >
-            </a>
-            <a href="login.html" class="btn btn-primary px-3">Login</a>
-          </div>
+        <div class="d-flex align-items-center gap-3">
+          <a href="cart.html" class="position-relative nav-link text-dark">
+            Your Cart
+          </a>
+          <a href="login.html" class="btn btn-primary px-3">Login</a>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
     <section class="page-head-section">
       <div class="container">
@@ -115,120 +96,11 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Category</li>
+          <li class="breadcrumb-item active" aria-current="page">Categories</li>
         </ol>
       </nav>
     </div>
 
-    <section class="category">
-      <div class="container py-5">
-        <div class="text-center mb-5">
-          <h2 class="section-title">Don’t Miss Out!</h2>
-          <p class="section-subtitle">
-            Bestsellers are going fast. Grab yours while it lasts.
-          </p>
-        </div>
-        <div class="row g-4">
-          <div class="col-md-6">
-            <div class="plant-card">
-              <img src="images/indoor.png" alt="Indoor Greens" />
-              <div class="plant-info text-right">
-                <h5>INDOOR GREENS</h5>
-                <p>
-                  Perfect for styling shelves, desks, and corners — these plants
-                  love the cozy indoors.
-                </p>
-                <button class="btn-shop">Shop Now</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="plant-card">
-              <img src="images/outdoor.png" alt="Outdoor Beauties" />
-              <div class="plant-info text-right">
-                <h5>OUTDOOR BEAUTIES</h5>
-                <p>
-                  Plants that flourish under the sun ideal for gardens,
-                  balconies, and open-air spots.
-                </p>
-                <button class="btn-shop">Shop Now</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="plant-card">
-              <img src="images/small.png" alt="Mini Plants" />
-              <div class="plant-info text-right">
-                <h5>MINI PLANTS</h5>
-                <p>
-                  Tiny yet charming — compact plants that bring joy to any nook
-                  or workspace.
-                </p>
-                <button class="btn-shop">Shop Now</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="plant-card">
-              <img src="images/Big.png" alt="Statement Plants" />
-              <div class="plant-info text-right">
-                <h5>STATEMENT PLANTS</h5>
-                <p>
-                  Bold and beautiful — large plants that add height, drama, and
-                  fresh air to your space.
-                </p>
-                <button class="btn-shop">Shop Now</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="plant-card">
-              <img src="images/seed.png" alt="Statement Plants" />
-              <div class="plant-info text-right">
-                <h5>Grow from Seeds</h5>
-                <p>
-                  Start your plant journey from the ground up with premium seeds
-                  for herbs, flowers, and greens.
-                </p>
-                <button class="btn-shop">Shop Now</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="plant-card">
-              <img src="images/pots.png" alt="Statement Plants" />
-              <div class="plant-info text-right">
-                <h5>Planters & Pots</h5>
-                <p>
-                  Modern, rustic, and minimal planters that turn every plant
-                  into a style statement.
-                </p>
-                <button class="btn-shop">Shop Now</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="plant-card">
-              <img src="images/tools.png" alt="Statement Plants" />
-              <div class="plant-info text-right">
-                <h5>Gardening Essentials</h5>
-                <p>
-                  All the tools you need — from pruning to watering — to keep
-                  your greens thriving.
-                </p>
-                <button class="btn-shop">Shop Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="benefits">
       <div class="container py-5">
         <div class="text-center mb-5">
@@ -280,63 +152,189 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-md-3">
-            <div class="footer-logo">
-              <img
-                src="images/logo.png"
-                alt="Urbanroots"
-                height="40"
-                class="me-2"
-              />
-            </div>
-            <p class="footer-text">
-              Nurture your space, one plant at a time. From leaf to root, we’re
-              here to grow with you.
-            </p>
-            <div class="social-icons mt-3">
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-            </div>
-          </div>
 
-          <!-- Quick Links -->
-          <div class="col-md-3">
-            <h5 class="footer-heading">Quick Links</h5>
-            <a href="index.html" class="footer-link">Home</a>
-            <a href="shop.html" class="footer-link">All Products</a>
-            <a href="category.html" class="footer-link">Categories</a>
-            <!-- <a href="#" class="footer-link">Best Products</a> -->
-            <a href="contact.html" class="footer-link">Contact Us</a>
-          </div>
-
-          <!-- Information -->
-          <div class="col-md-3">
-            <h5 class="footer-heading">Information</h5>
-            <a href="about.html" class="footer-link">About us</a>
-            <a href="wishlist.html" class="footer-link">Wishlists</a>
-            <a href="cart.html" class="footer-link">Cart</a>
-            <a href="cancellation.html" class="footer-link">Cancellation</a>
-          </div>
-
-          <div class="col-md-3">
-            <h5 class="footer-heading">Get in touch</h5>
-            <p class="footer-text mb-1">Kolkata, India</p>
-            <p class="footer-text mb-1">web.abhiaacharya@gmail.com</p>
-            <p class="footer-text mb-0">+91 957 0258 922</p>
-          </div>
+    <section class="category">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Don’t Miss Out!</h2>
+          <p class="section-subtitle">
+            Bestsellers are going fast. Grab yours while it lasts.
+          </p>
         </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="plant-card">
+              <img src="images/indoor.png" alt="Indoor Greens" />
+              <div class="plant-info text-right">
+                <h5>Indoor Greens</h5>
+                <p>
+                  Perfect for styling shelves, desks, and corners — these plants
+                  love the cozy indoors.
+                </p>
+                <a href="shop.html" style="text-decoration: none;">
+        <button class="btn btn-primary d-block ms-auto mt-5">All Products</button>
+      </a>
+              </div>
+            </div>
+          </div>
 
-        <div class="footer-bottom text-center mt-4">
-          Copyright © 2025 Abhishek Acharya
+          <div class="col-md-6">
+            <div class="plant-card">
+              <img src="images/outdoor.png" alt="Outdoor Beauties" />
+              <div class="plant-info text-right">
+                <h5>Outdoor Beauties</h5>
+                <p>
+                  Plants that flourish under the sun ideal for gardens,
+                  balconies, and open-air spots.
+                </p>
+                <a href="shop.html" style="text-decoration: none;">
+        <button class="btn btn-primary d-block ms-auto mt-5">All Products</button>
+      </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="plant-card">
+              <img src="images/small.png" alt="Mini Plants" />
+              <div class="plant-info text-right">
+                <h5>Mini Plants</h5>
+                <p>
+                  Tiny yet charming — compact plants that bring joy to any nook
+                  or workspace.
+                </p>
+                <a href="shop.html" style="text-decoration: none;">
+        <button class="btn btn-primary d-block ms-auto mt-5">All Products</button>
+      </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="plant-card">
+              <img src="images/Big.png" alt="Statement Plants" />
+              <div class="plant-info text-right">
+                <h5>Statement Plants</h5>
+                <p>
+                  Bold and beautiful — large plants that add height, drama, and
+                  fresh air to your space.
+                </p>
+                <a href="shop.html" style="text-decoration: none;">
+        <button class="btn btn-primary d-block ms-auto mt-5">All Products</button>
+      </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="plant-card">
+              <img src="images/seed.png" alt="Statement Plants" />
+              <div class="plant-info text-right">
+                <h5>Grow from Seeds</h5>
+                <p>
+                  Start your plant journey from the ground up with premium seeds
+                  for herbs, flowers, and greens.
+                </p>
+                <a href="shop.html" style="text-decoration: none;">
+        <button class="btn btn-primary d-block ms-auto mt-5">All Products</button>
+      </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="plant-card">
+              <img src="images/pots.png" alt="Statement Plants" />
+              <div class="plant-info text-right">
+                <h5>Planters & Pots</h5>
+                <p>
+                  Modern, rustic, and minimal planters that turn every plant
+                  into a style statement.
+                </p>
+                <a href="shop.html" style="text-decoration: none;">
+        <button class="btn btn-primary d-block ms-auto mt-5">All Products</button>
+      </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="plant-card">
+              <img src="images/tools.png" alt="Statement Plants" />
+              <div class="plant-info text-right">
+                <h5>Gardening Essentials</h5>
+                <p>
+                  All the tools you need — from pruning to watering — to keep
+                  your greens thriving.
+                </p>
+                <a href="shop.html" style="text-decoration: none;">
+        <button class="btn btn-primary d-block ms-auto mt-5">All Products</button>
+      </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+
+    <footer>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-3">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="Urbanroots" height="40" class="me-2" />
+          </div>
+          <p class="footer-text">
+            Nurture your space, one plant at a time. From leaf to root, we’re
+            here to grow with you.
+          </p>
+          <div class="social-icons mt-3">
+            <a href="https://twitter.com/login" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/login/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <h5 class="footer-heading">Quick Links</h5>
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="shop.html" class="footer-link">All Products</a>
+          <a href="category.html" class="footer-link">Categories</a>
+          <a href="contact.html" class="footer-link">Contact Us</a>
+        </div>
+
+        <div class="col-md-3">
+          <h5 class="footer-heading">Information</h5>
+          <a href="about.html" class="footer-link">About us</a>
+          <a href="wishlist.html" class="footer-link">Wishlists</a>
+          <a href="cart.html" class="footer-link">Cart</a>
+          <a href="cancellation.html" class="footer-link">Cancellation</a>
+        </div>
+
+        <div class="col-md-3">
+          <h5 class="footer-heading">Get in touch</h5>
+          <p class="footer-text mb-1">Kolkata, India</p>
+          <p class="footer-text mb-1">web.abhiaacharya@gmail.com</p>
+          <p class="footer-text mb-0">+91 957 0258 922</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center mt-4">
+        Copyright © 2025 Abhishek Acharya
+      </div>
+    </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/sale-products.js"></script>
+</body>
+
 </html>

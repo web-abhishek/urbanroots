@@ -2,107 +2,972 @@
   "products": [
     {
       "id": 1,
-      "name": "Peace Lily",
-      "price": 12.05,
-      "originalPrice": 15.99,
+      "name": "Fiddle Leaf Fig",
+      "price": 20.81,
+      "originalPrice": 45.0,
       "category": "indoor",
-      "size": "medium",
+      "size": "small",
       "image": "../images/indoor.png",
-      "description": "Peace lilies have lush, dark green leaves that can grow quite large, and they produce snowy white flowers.",
-      "rating": 5,
-      "isNew": true,
-      "onSale": false
+      "images": [
+        "../images/indoor.png",
+        "../images/indoor-2.png",
+        "../images/indoor-3.png"
+      ],
+      "description": "Big-leaf, statement indoor tree",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": false,
+      "onSale": false,
+      "longdetails": "Fiddle Leaf Fig is a commanding plant ideal for open spaces, offices, or living rooms. Known for its generous height and dramatic leaves, it instantly transforms any area into a lush oasis and boosts air quality. This plant thrives in indirect light and appreciates consistent moisture, making it easy for dedicated plant lovers. Its architectural form pairs well with modern and classic decor, adding both health and style to homes. Expect a bold statement piece with manageable maintenance needs.",
+      "specification": [
+        "Bright, filtered sunlight required.",
+        "Water once topsoil is dry.",
+        "Tall, broad, violin-shaped leaves.",
+        "Benefits air quality indoors.",
+        "Prefers stable temperatures above 18\u00b0C."
+      ],
+      "sku": "9470531182"
     },
     {
       "id": 2,
-      "name": "Snake Plant",
-      "price": 18.50,
-      "originalPrice": 24.99,
-      "category": "indoor",
-      "size": "small",
-      "image": "../images/indoor-1.png",
-      "description": "Extremely durable and easy to grow, perfect for beginners.",
-      "rating": 4,
-      "isNew": false,
-      "onSale": true
+      "name": "Majesty Palm",
+      "price": 28.58,
+      "originalPrice": 38.65,
+      "category": "big",
+      "size": "large",
+      "image": "../images/big.png",
+      "images": [
+        "../images/big.png",
+        "../images/big-2.png",
+        "../images/big-3.png"
+      ],
+      "description": "Tall, lush palm for indoor/outdoor",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "Majesty Palm is a commanding plant ideal for open spaces, offices, or living rooms. Known for its generous height and dramatic leaves, it instantly transforms any area into a lush oasis and boosts air quality. This plant thrives in indirect light and appreciates consistent moisture, making it easy for dedicated plant lovers. Its architectural form pairs well with modern and classic decor, adding both health and style to homes. Expect a bold statement piece with manageable maintenance needs.",
+      "specification": [
+        "Grows up to 10ft indoors.",
+        "Loves high humidity.",
+        "Tolerates lower light.",
+        "Feathery, arching fronds.",
+        "Needs evenly moist soil."
+      ],
+      "sku": "6145336859"
     },
     {
       "id": 3,
-      "name": "Monstera Deliciosa",
-      "price": 34.99,
-      "originalPrice": 39.99,
-      "category": "indoor",
+      "name": "Bird of Paradise",
+      "price": 11.36,
+      "originalPrice": 32.0,
+      "category": "big",
       "size": "large",
-      "image": "../images/indoor.png",
-      "description": "Tropical plant with large, glossy leaves with natural holes.",
-      "rating": 5,
+      "image": "../images/big-4.png",
+      "images": [
+        "../images/big-4.png",
+        "../images/big-1.png",
+        "../images/big-2.png"
+      ],
+      "description": "Exotic foliage, dramatic size",
+      "rating": "\u2605\u2605\u2605\u2606\u2606",
       "isNew": false,
-      "onSale": true
+      "onSale": true,
+      "longdetails": "Bird of Paradise is a commanding plant ideal for open spaces, offices, or living rooms. Known for its generous height and dramatic leaves, it instantly transforms any area into a lush oasis and boosts air quality. This plant thrives in indirect light and appreciates consistent moisture, making it easy for dedicated plant lovers. Its architectural form pairs well with modern and classic decor, adding both health and style to homes. Expect a bold statement piece with manageable maintenance needs.",
+      "specification": [
+        "Stunning orange/blue flowers.",
+        "Prefers full sun to partial shade.",
+        "Large banana-like leaves.",
+        "Needs rich, well-drained soil.",
+        "Rapid growth in ideal conditions."
+      ],
+      "sku": "7826717173"
     },
     {
       "id": 4,
-      "name": "Rose Bush",
-      "price": 22.75,
-      "originalPrice": 22.75,
-      "category": "outdoor",
-      "size": "medium",
-      "image": "../images/indoor.png",
-      "description": "Classic flowering shrub with fragrant blooms.",
-      "rating": 4,
+      "name": "Monstera Deliciosa",
+      "price": 26.79,
+      "originalPrice": 46.27,
+      "category": "big",
+      "size": "large",
+      "image": "../images/big.png",
+      "images": [
+        "../images/big.png",
+        "../images/big-2.png",
+        "../images/big-3.png"
+      ],
+      "description": "Large striking split leaves",
+      "rating": "\u2605\u2605\u2605\u2606\u2606",
       "isNew": true,
-      "onSale": false
+      "onSale": false,
+      "longdetails": "Monstera Deliciosa is a commanding plant ideal for open spaces, offices, or living rooms. Known for its generous height and dramatic leaves, it instantly transforms any area into a lush oasis and boosts air quality. This plant thrives in indirect light and appreciates consistent moisture, making it easy for dedicated plant lovers. Its architectural form pairs well with modern and classic decor, adding both health and style to homes. Expect a bold statement piece with manageable maintenance needs.",
+      "specification": [
+        "Distinctive split leaves.",
+        "Easy-care tropical nature.",
+        "Likes humidity & filtered light.",
+        "Climbing growth requires support.",
+        "Occasional fruit production."
+      ],
+      "sku": "4534695822"
     },
     {
       "id": 5,
-      "name": "Lavender",
-      "price": 14.99,
-      "originalPrice": 14.99,
-      "category": "outdoor",
-      "size": "small",
-      "image": "../images/indoor.png",
-      "description": "Fragrant purple flowers perfect for sunny spots.",
-      "rating": 5,
+      "name": "Dragon Tree",
+      "price": 23.87,
+      "originalPrice": 29.53,
+      "category": "big",
+      "size": "large",
+      "image": "../images/big-4.png",
+      "images": [
+        "../images/big-4.png",
+        "../images/big.png",
+        "../images/big-1.png"
+      ],
+      "description": "Vertical, architectural green/red",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
       "isNew": false,
-      "onSale": false
+      "onSale": false,
+      "longdetails": "Dragon Tree is a commanding plant ideal for open spaces, offices, or living rooms. Known for its generous height and dramatic leaves, it instantly transforms any area into a lush oasis and boosts air quality. This plant thrives in indirect light and appreciates consistent moisture, making it easy for dedicated plant lovers. Its architectural form pairs well with modern and classic decor, adding both health and style to homes. Expect a bold statement piece with manageable maintenance needs.",
+      "specification": [
+        "Tolerates low light.",
+        "Red-edged sword-like leaves.",
+        "Low water requirement.",
+        "Slow, vertical growth.",
+        "Air-purifying properties."
+      ],
+      "sku": "7826111945"
     },
     {
       "id": 6,
-      "name": "Terracotta Pot",
-      "price": 8.99,
-      "originalPrice": 10.99,
-      "category": "pots",
-      "size": "medium",
-      "image": "../images/indoor.png",
-      "description": "Classic clay pot with excellent drainage.",
-      "rating": 4,
+      "name": "Peace Lily",
+      "price": 19.51,
+      "originalPrice": 12.28,
+      "category": "indoor",
+      "size": "small",
+      "image": "../images/indoor-4.png",
+      "images": [
+        "../images/indoor-4.png",
+        "../images/indoor.png",
+        "../images/indoor-1.png"
+      ],
+      "description": "Popular air-purifier, white flowers",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
       "isNew": false,
-      "onSale": true
+      "onSale": false,
+      "longdetails": "Peace Lily remains a favorite among houseplants for its manageable size, attractive foliage, and positive effect on indoor air. Its adaptability allows it to flourish in various conditions\u2014many varieties tolerate low light and infrequent watering. Pet-friendly species are safe for homes with animals, while more resilient varieties suit busy lifestyles. Perfect for desks, shelves, or corners, these provide vibrant greenery and natural tranquility year-round. To care for Peace Lily, provide popular air-purifier, white flowers. Re-pot or prune as needed for size and health. Popular for both homes and offices, Peace Lily suits indoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Dark green lance-shaped leaves.",
+        "Elegant white blooms year-round.",
+        "Thrives in low light.",
+        "Signals watering needs by drooping.",
+        "Improves indoor air quality."
+      ],
+      "sku": "3830528237"
     },
     {
       "id": 7,
-      "name": "Pruning Shears",
-      "price": 15.50,
-      "originalPrice": 15.50,
-      "category": "tools",
+      "name": "Snake Plant",
+      "price": 8.77,
+      "originalPrice": 13.94,
+      "category": "indoor",
       "size": "small",
-      "image": "../images/indoor.png",
-      "description": "Sharp, durable shears for precise plant care.",
-      "rating": 5,
+      "image": "../images/indoor-2.png",
+      "images": [
+        "../images/indoor-2.png",
+        "../images/indoor-1.png",
+        "../images/indoor.png"
+      ],
+      "description": "Easy-care, upright sword leaves",
+      "rating": "\u2605\u2605\u2605\u2606\u2606",
       "isNew": true,
-      "onSale": false
+      "onSale": true,
+      "longdetails": "Snake Plant remains a favorite among houseplants for its manageable size, attractive foliage, and positive effect on indoor air. Its adaptability allows it to flourish in various conditions\u2014many varieties tolerate low light and infrequent watering. Pet-friendly species are safe for homes with animals, while more resilient varieties suit busy lifestyles. Perfect for desks, shelves, or corners, these provide vibrant greenery and natural tranquility year-round. To care for Snake Plant, provide easy-care, upright sword leaves. Re-pot or prune as needed for size and health. Popular for both homes and offices, Snake Plant suits indoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Upright sword-leaf growth.",
+        "Extremely tough, low water needs.",
+        "Tolerates dim corners.",
+        "Casual neglect no problem.",
+        "Filters household toxins."
+      ],
+      "sku": "0951484786"
     },
     {
       "id": 8,
-      "name": "Herb Seed Kit",
-      "price": 12.99,
-      "originalPrice": 16.99,
-      "category": "seeds",
+      "name": "ZZ Plant",
+      "price": 30.73,
+      "originalPrice": 34.44,
+      "category": "indoor",
+      "size": "small",
+      "image": "../images/indoor-1.png",
+      "images": [
+        "../images/indoor-1.png",
+        "../images/indoor-3.png",
+        "../images/indoor-2.png"
+      ],
+      "description": "Textured shiny leaves, tough",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": false,
+      "onSale": true,
+      "longdetails": "ZZ Plant remains a favorite among houseplants for its manageable size, attractive foliage, and positive effect on indoor air. Its adaptability allows it to flourish in various conditions\u2014many varieties tolerate low light and infrequent watering. Pet-friendly species are safe for homes with animals, while more resilient varieties suit busy lifestyles. Perfect for desks, shelves, or corners, these provide vibrant greenery and natural tranquility year-round. To care for ZZ Plant, provide textured shiny leaves, tough. Re-pot or prune as needed for size and health. Popular for both homes and offices, ZZ Plant suits indoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Glossy oval foliage.",
+        "Drought-tolerant.",
+        "Prefers indirect light.",
+        "Rarely needs repotting.",
+        "Suitable for offices and homes."
+      ],
+      "sku": "7053991222"
+    },
+    {
+      "id": 9,
+      "name": "Spider Plant",
+      "price": 18.11,
+      "originalPrice": 11.41,
+      "category": "indoor",
+      "size": "small",
+      "image": "../images/indoor-2.png",
+      "images": [
+        "../images/indoor-2.png",
+        "../images/indoor-4.png",
+        "../images/indoor-1.png"
+      ],
+      "description": "Fast-growing, arching variegated",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "Spider Plant remains a favorite among houseplants for its manageable size, attractive foliage, and positive effect on indoor air. Its adaptability allows it to flourish in various conditions\u2014many varieties tolerate low light and infrequent watering. Pet-friendly species are safe for homes with animals, while more resilient varieties suit busy lifestyles. Perfect for desks, shelves, or corners, these provide vibrant greenery and natural tranquility year-round. To care for Spider Plant, provide fast-growing, arching variegated. Re-pot or prune as needed for size and health. Popular for both homes and offices, Spider Plant suits indoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Fast-growing arching leaves.",
+        "Produces baby plantlets.",
+        "Likes indirect light.",
+        "Non-toxic to pets.",
+        "Survives inconsistent care."
+      ],
+      "sku": "8153065128"
+    },
+    {
+      "id": 10,
+      "name": "Pothos",
+      "price": 38.18,
+      "originalPrice": 32.67,
+      "category": "indoor",
       "size": "small",
       "image": "../images/indoor.png",
-      "description": "Grow your own basil, parsley, and thyme.",
-      "rating": 4,
+      "images": [
+        "../images/indoor.png",
+        "../images/indoor-4.png",
+        "../images/indoor-1.png"
+      ],
+      "description": "Trailing vine, heart leaves",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
       "isNew": false,
-      "onSale": true
+      "onSale": false,
+      "longdetails": "Pothos remains a favorite among houseplants for its manageable size, attractive foliage, and positive effect on indoor air. Its adaptability allows it to flourish in various conditions\u2014many varieties tolerate low light and infrequent watering. Pet-friendly species are safe for homes with animals, while more resilient varieties suit busy lifestyles. Perfect for desks, shelves, or corners, these provide vibrant greenery and natural tranquility year-round. To care for Pothos, provide trailing vine, heart leaves. Re-pot or prune as needed for size and health. Popular for both homes and offices, Pothos suits indoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Trailing heart-shaped leaves.",
+        "Tolerates low light/water.",
+        "Great for hanging baskets.",
+        "Rapid grower.",
+        "Filters indoor air."
+      ],
+      "sku": "3417890093"
+    },
+    {
+      "id": 11,
+      "name": "Rose Bush",
+      "price": 39.35,
+      "originalPrice": 27.94,
+      "category": "outdoor",
+      "size": "medium",
+      "image": "../images/outdoor-2.png",
+      "images": [
+        "../images/outdoor-2.png",
+        "../images/outdoor-3.png",
+        "../images/outdoor-4.png"
+      ],
+      "description": "Classic flowering shrub, thorns",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "Rose Bush is suited for gardens, patios, or terraces, delivering seasonal color and interest. These plants are generally sun-loving and attract pollinators such as bees and butterflies. With proper soil and watering, they produce vibrant blossoms and healthy foliage year after year. Some outdoor varieties are evergreen, offering interest even in winter, while others reward gardeners each spring and summer with a burst of color and scent. To care for Rose Bush, provide classic flowering shrub, thorns. Re-pot or prune as needed for size and health. Popular for both homes and offices, Rose Bush suits outdoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Classic fragrant flowers.",
+        "Needs full sun.",
+        "Prune regularly for shape.",
+        "Disease-resistant modern varieties.",
+        "Thorny stems deter pests.",
+        "Blooms spring to fall."
+      ],
+      "sku": "5033463268"
+    },
+    {
+      "id": 12,
+      "name": "Lavender",
+      "price": 11.22,
+      "originalPrice": 32.54,
+      "category": "outdoor",
+      "size": "medium",
+      "image": "../images/outdoor-1.png",
+      "images": [
+        "../images/outdoor-1.png",
+        "../images/outdoor-3.png",
+        "../images/outdoor-4.png"
+      ],
+      "description": "Purple aromatic perennial",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": true,
+      "onSale": true,
+      "longdetails": "Lavender is suited for gardens, patios, or terraces, delivering seasonal color and interest. These plants are generally sun-loving and attract pollinators such as bees and butterflies. With proper soil and watering, they produce vibrant blossoms and healthy foliage year after year. Some outdoor varieties are evergreen, offering interest even in winter, while others reward gardeners each spring and summer with a burst of color and scent. To care for Lavender, provide purple aromatic perennial. Re-pot or prune as needed for size and health. Popular for both homes and offices, Lavender suits outdoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Aromatic purple spikes.",
+        "Prefers dry, sandy soil.",
+        "Attracts pollinators.",
+        "Rarely troubled by pests.",
+        "Strong drought tolerance."
+      ],
+      "sku": "2806308616"
+    },
+    {
+      "id": 13,
+      "name": "Hibiscus",
+      "price": 13.33,
+      "originalPrice": 30.5,
+      "category": "big",
+      "size": "large",
+      "image": "../images/big.png",
+      "images": [
+        "../images/big.png",
+        "../images/big-1.png",
+        "../images/big-3.png"
+      ],
+      "description": "Big showy blooms",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": false,
+      "onSale": true,
+      "longdetails": "Hibiscus is suited for gardens, patios, or terraces, delivering seasonal color and interest. These plants are generally sun-loving and attract pollinators such as bees and butterflies. With proper soil and watering, they produce vibrant blossoms and healthy foliage year after year. Some outdoor varieties are evergreen, offering interest even in winter, while others reward gardeners each spring and summer with a burst of color and scent. To care for Hibiscus, provide big showy blooms. Re-pot or prune as needed for size and health. Popular for both homes and offices, Hibiscus suits outdoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Huge blooms in summer.",
+        "Likes regular watering.",
+        "Frost may damage plant.",
+        "Prefers sunny spot.",
+        "Prune to promote growth."
+      ],
+      "sku": "7598530756"
+    },
+    {
+      "id": 14,
+      "name": "Bougainvillea",
+      "price": 22.07,
+      "originalPrice": 17.31,
+      "category": "outdoor",
+      "size": "large",
+      "image": "../images/outdoor-3.png",
+      "images": [
+        "../images/outdoor-3.png",
+        "../images/outdoor-8.png",
+        "../images/outdoor-6.png"
+      ],
+      "description": "Colorful, sprawling climber",
+      "rating": "\u2605\u2605\u2605\u2606\u2606",
+      "isNew": true,
+      "onSale": true,
+      "longdetails": "Bougainvillea is suited for gardens, patios, or terraces, delivering seasonal color and interest. These plants are generally sun-loving and attract pollinators such as bees and butterflies. With proper soil and watering, they produce vibrant blossoms and healthy foliage year after year. Some outdoor varieties are evergreen, offering interest even in winter, while others reward gardeners each spring and summer with a burst of color and scent. To care for Bougainvillea, provide colorful, sprawling climber. Re-pot or prune as needed for size and health. Popular for both homes and offices, Bougainvillea suits outdoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Bright papery bracts.",
+        "Needs strong light.",
+        "May climb or trail.",
+        "Drought-tolerant once established.",
+        "Best in large containers."
+      ],
+      "sku": "5155146913"
+    },
+    {
+      "id": 15,
+      "name": "Hydrangea",
+      "price": 23.17,
+      "originalPrice": 30.06,
+      "category": "outdoor",
+      "size": "medium",
+      "image": "../images/outdoor-7.png",
+      "images": [
+        "../images/outdoor-7.png",
+        "../images/outdoor-4.png",
+        "../images/outdoor-5.png"
+      ],
+      "description": "Globes of pastel flowers",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "Hydrangea is suited for gardens, patios, or terraces, delivering seasonal color and interest. These plants are generally sun-loving and attract pollinators such as bees and butterflies. With proper soil and watering, they produce vibrant blossoms and healthy foliage year after year. Some outdoor varieties are evergreen, offering interest even in winter, while others reward gardeners each spring and summer with a burst of color and scent. To care for Hydrangea, provide globes of pastel flowers. Re-pot or prune as needed for size and health. Popular for both homes and offices, Hydrangea suits outdoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Famous for large flower heads.",
+        "Soil pH affects color.",
+        "Needs regular watering.",
+        "Can tolerate some shade.",
+        "Prune after flowering."
+      ],
+      "sku": "8663690487"
+    },
+    {
+      "id": 16,
+      "name": "Azalea",
+      "price": 31.72,
+      "originalPrice": 39.62,
+      "category": "outdoor",
+      "size": "medium",
+      "image": "../images/outdoor-5.png",
+      "images": [
+        "../images/outdoor-5.png",
+        "../images/outdoor-7.png",
+        "../images/outdoor-3.png"
+      ],
+      "description": "Bright spring blooms",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": false,
+      "onSale": true,
+      "longdetails": "Azalea is suited for gardens, patios, or terraces, delivering seasonal color and interest. These plants are generally sun-loving and attract pollinators such as bees and butterflies. With proper soil and watering, they produce vibrant blossoms and healthy foliage year after year. Some outdoor varieties are evergreen, offering interest even in winter, while others reward gardeners each spring and summer with a burst of color and scent. To care for Azalea, provide bright spring blooms. Re-pot or prune as needed for size and health. Popular for both homes and offices, Azalea suits outdoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Vivid blooms in spring.",
+        "Acidic soil needed.",
+        "Evergreen or deciduous forms.",
+        "Shade-loving.",
+        "Needs mulch in summer."
+      ],
+      "sku": "5444958587"
+    },
+    {
+      "id": 17,
+      "name": "Jasmine",
+      "price": 39.85,
+      "originalPrice": 40.91,
+      "category": "outdoor",
+      "size": "large",
+      "image": "../images/outdoor-7.png",
+      "images": [
+        "../images/outdoor-7.png",
+        "../images/outdoor-4.png",
+        "../images/outdoor-1.png"
+      ],
+      "description": "Sweet-scented climber",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": false,
+      "onSale": true,
+      "longdetails": "Jasmine is suited for gardens, patios, or terraces, delivering seasonal color and interest. These plants are generally sun-loving and attract pollinators such as bees and butterflies. With proper soil and watering, they produce vibrant blossoms and healthy foliage year after year. Some outdoor varieties are evergreen, offering interest even in winter, while others reward gardeners each spring and summer with a burst of color and scent. To care for Jasmine, provide sweet-scented climber. Re-pot or prune as needed for size and health. Popular for both homes and offices, Jasmine suits outdoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Strongly scented white flowers.",
+        "Flowers summer to fall.",
+        "Can be grown as climber.",
+        "Likes full sun.",
+        "Tolerates some drought."
+      ],
+      "sku": "9101214895"
+    },
+    {
+      "id": 18,
+      "name": "Boxwood",
+      "price": 14.27,
+      "originalPrice": 24.16,
+      "category": "outdoor",
+      "size": "medium",
+      "image": "../images/outdoor-1.png",
+      "images": [
+        "../images/outdoor-1.png",
+        "../images/outdoor-3.png",
+        "../images/outdoor-4.png"
+      ],
+      "description": "Formal hedging shrub",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": false,
+      "onSale": true,
+      "longdetails": "Boxwood is suited for gardens, patios, or terraces, delivering seasonal color and interest. These plants are generally sun-loving and attract pollinators such as bees and butterflies. With proper soil and watering, they produce vibrant blossoms and healthy foliage year after year. Some outdoor varieties are evergreen, offering interest even in winter, while others reward gardeners each spring and summer with a burst of color and scent. To care for Boxwood, provide formal hedging shrub. Re-pot or prune as needed for size and health. Popular for both homes and offices, Boxwood suits outdoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Compact evergreen shrub.",
+        "Excellent for topiary.",
+        "Slow growing.",
+        "Tolerates shearing.",
+        "Needs regular moisture."
+      ],
+      "sku": "9861205899"
+    },
+    {
+      "id": 19,
+      "name": "Oleander",
+      "price": 33.22,
+      "originalPrice": 23.3,
+      "category": "outdoor",
+      "size": "medium",
+      "image": "../images/outdoor-5.png",
+      "images": [
+        "../images/outdoor-5.png",
+        "../images/outdoor-8.png",
+        "../images/outdoor.png"
+      ],
+      "description": "Evergreen shrub, pink/white flowers",
+      "rating": "\u2605\u2605\u2605\u2606\u2606",
+      "isNew": true,
+      "onSale": true,
+      "longdetails": "Oleander is suited for gardens, patios, or terraces, delivering seasonal color and interest. These plants are generally sun-loving and attract pollinators such as bees and butterflies. With proper soil and watering, they produce vibrant blossoms and healthy foliage year after year. Some outdoor varieties are evergreen, offering interest even in winter, while others reward gardeners each spring and summer with a burst of color and scent. To care for Oleander, provide evergreen shrub, pink/white flowers. Re-pot or prune as needed for size and health. Popular for both homes and offices, Oleander suits outdoor spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Long blooming season.",
+        "Tolerates marine air.",
+        "Evergreen foliage.",
+        "All parts toxic if ingested.",
+        "Needs well-drained soil."
+      ],
+      "sku": "4664806771"
+    },
+    {
+      "id": 20,
+      "name": "Mini Cactus",
+      "price": 35.88,
+      "originalPrice": 16.19,
+      "category": "small",
+      "size": "small",
+      "image": "../images/small.png",
+      "images": [
+        "../images/small.png",
+        "../images/small-2.png",
+        "../images/small-3.png"
+      ],
+      "description": "Spiky, compact desert plant",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": true,
+      "onSale": true,
+      "longdetails": "Mini Cactus fits naturally on window sills, shelves, or workspaces. These compact plants bring green energy into small apartments, dorm rooms, or offices. Their diminutive size makes them easy to rearrange or group creatively for a mini-garden effect. Low care requirements mean anyone can succeed. Most tolerate a missed watering or lower light, thriving with a bit of neglect. To care for Mini Cactus, provide spiky, compact desert plant. Re-pot or prune as needed for size and health. Popular for both homes and offices, Mini Cactus suits small spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Tiny, needs minimal water.",
+        "Thrives in bright sun.",
+        "Attractive spines.",
+        "Slow growing.",
+        "Fits in small pots."
+      ],
+      "sku": "6588766992"
+    },
+    {
+      "id": 21,
+      "name": "Succulent Assortment",
+      "price": 37.22,
+      "originalPrice": 29.63,
+      "category": "small",
+      "size": "small",
+      "image": "../images/small-2.png",
+      "images": [
+        "../images/small-2.png",
+        "../images/small-4.png",
+        "../images/small-1.png"
+      ],
+      "description": "Mixed small succulents",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "Succulent Assortment fits naturally on window sills, shelves, or workspaces. These compact plants bring green energy into small apartments, dorm rooms, or offices. Their diminutive size makes them easy to rearrange or group creatively for a mini-garden effect. Low care requirements mean anyone can succeed. Most tolerate a missed watering or lower light, thriving with a bit of neglect. To care for Succulent Assortment, provide mixed small succulents. Re-pot or prune as needed for size and health. Popular for both homes and offices, Succulent Assortment suits small spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Mix of drought-loving plants.",
+        "Varied color and shape.",
+        "Stores water in leaves.",
+        "Great for gifts.",
+        "Needs sun or bright light."
+      ],
+      "sku": "1748495460"
+    },
+    {
+      "id": 22,
+      "name": "Lucky Bamboo",
+      "price": 35.32,
+      "originalPrice": 46.14,
+      "category": "small",
+      "size": "small",
+      "image": "../images/small-4.png",
+      "images": [
+        "../images/small-4.png",
+        "../images/small-2.png",
+        "../images/small-1.png"
+      ],
+      "description": "Curly green stalks",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "Lucky Bamboo fits naturally on window sills, shelves, or workspaces. These compact plants bring green energy into small apartments, dorm rooms, or offices. Their diminutive size makes them easy to rearrange or group creatively for a mini-garden effect. Low care requirements mean anyone can succeed. Most tolerate a missed watering or lower light, thriving with a bit of neglect. To care for Lucky Bamboo, provide curly green stalks. Re-pot or prune as needed for size and health. Popular for both homes and offices, Lucky Bamboo suits small spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Often grown hydroponically.",
+        "Symbolizes luck/feng shui.",
+        "Prefers filtered water.",
+        "Minimal fertilizer needed.",
+        "Curled or straight stems."
+      ],
+      "sku": "4809967385"
+    },
+    {
+      "id": 23,
+      "name": "Mini Fern",
+      "price": 29.14,
+      "originalPrice": 20.08,
+      "category": "small",
+      "size": "small",
+      "image": "../images/small-2.png",
+      "images": [
+        "../images/small-2.png",
+        "../images/small.png",
+        "../images/small-1.png"
+      ],
+      "description": "Delicate, feathery foliage",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "Mini Fern fits naturally on window sills, shelves, or workspaces. These compact plants bring green energy into small apartments, dorm rooms, or offices. Their diminutive size makes them easy to rearrange or group creatively for a mini-garden effect. Low care requirements mean anyone can succeed. Most tolerate a missed watering or lower light, thriving with a bit of neglect. To care for Mini Fern, provide delicate, feathery foliage. Re-pot or prune as needed for size and health. Popular for both homes and offices, Mini Fern suits small spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Small, finely divided fronds.",
+        "Likes moist soil.",
+        "Grows well in shade.",
+        "Excellent in terrariums.",
+        "Air-purifying effects."
+      ],
+      "sku": "2410646375"
+    },
+    {
+      "id": 24,
+      "name": "Baby Rubber Plant",
+      "price": 40.39,
+      "originalPrice": 33.11,
+      "category": "small",
+      "size": "medium",
+      "image": "../images/small.png",
+      "images": [
+        "../images/small.png",
+        "../images/small-3.png",
+        "../images/small-4.png"
+      ],
+      "description": "Thick glossy leaves",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "Baby Rubber Plant fits naturally on window sills, shelves, or workspaces. These compact plants bring green energy into small apartments, dorm rooms, or offices. Their diminutive size makes them easy to rearrange or group creatively for a mini-garden effect. Low care requirements mean anyone can succeed. Most tolerate a missed watering or lower light, thriving with a bit of neglect. To care for Baby Rubber Plant, provide thick glossy leaves. Re-pot or prune as needed for size and health. Popular for both homes and offices, Baby Rubber Plant suits small spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Glossy thick leaves.",
+        "Compact growth.",
+        "Tolerates medium light.",
+        "Requires little pruning.",
+        "Great in small spaces."
+      ],
+      "sku": "6186261124"
+    },
+    {
+      "id": 25,
+      "name": "Terracotta Pot",
+      "price": 32.02,
+      "originalPrice": 20.99,
+      "category": "pots",
+      "size": "small",
+      "image": "../images/pot.png",
+      "images": [
+        "../images/pot.png",
+        "../images/pot-2.png",
+        "../images/pot-3.png"
+      ],
+      "description": "Porous classic clay",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": false,
+      "onSale": false,
+      "longdetails": "The Terracotta Pot is a functional and aesthetic choice for showing off your favorite plants. Good drainage ensures root health, while varied shapes fit different decor styles\u2014traditional, modern, or rustic. Many pots are light enough to move yet robust to withstand years of use. Whether you\u2019re planting succulents, herbs, or flowering plants, the right pot sets the stage for healthy growth and easy care. To care for Terracotta Pot, provide porous classic clay. Re-pot or prune as needed for size and health. Popular for both homes and offices, Terracotta Pot suits pots spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Classic porous clay.",
+        "Great for preventing root rot.",
+        "Earthy look ages well.",
+        "Good for succulents."
+      ],
+      "sku": "4128955939"
+    },
+    {
+      "id": 26,
+      "name": "Ceramic Planter",
+      "price": 10.1,
+      "originalPrice": 31.43,
+      "category": "pots",
+      "size": "medium",
+      "image": "../images/pot-1.png",
+      "images": [
+        "../images/pot-1.png",
+        "../images/pot.png",
+        "../images/pot-3.png"
+      ],
+      "description": "Glazed, decorative",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "The Ceramic Planter is a functional and aesthetic choice for showing off your favorite plants. Good drainage ensures root health, while varied shapes fit different decor styles\u2014traditional, modern, or rustic. Many pots are light enough to move yet robust to withstand years of use. Whether you\u2019re planting succulents, herbs, or flowering plants, the right pot sets the stage for healthy growth and easy care. To care for Ceramic Planter, provide glazed, decorative. Re-pot or prune as needed for size and health. Popular for both homes and offices, Ceramic Planter suits pots spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Bright glazed options.",
+        "Durable and sturdy.",
+        "Retains soil moisture.",
+        "Choices for all plant sizes."
+      ],
+      "sku": "6124686619"
+    },
+    {
+      "id": 27,
+      "name": "Self-Watering Pot",
+      "price": 16.11,
+      "originalPrice": 29.18,
+      "category": "pots",
+      "size": "small",
+      "image": "../images/pot-2.png",
+      "images": [
+        "../images/pot-2.png",
+        "../images/pot-1.png",
+        "../images/pot-3.png"
+      ],
+      "description": "Built-in reservoir for care",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": true,
+      "onSale": true,
+      "longdetails": "The Self-Watering Pot is a functional and aesthetic choice for showing off your favorite plants. Good drainage ensures root health, while varied shapes fit different decor styles\u2014traditional, modern, or rustic. Many pots are light enough to move yet robust to withstand years of use. Whether you\u2019re planting succulents, herbs, or flowering plants, the right pot sets the stage for healthy growth and easy care. To care for Self-Watering Pot, provide built-in reservoir for care. Re-pot or prune as needed for size and health. Popular for both homes and offices, Self-Watering Pot suits pots spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Integrated water reserve.",
+        "Less frequent watering.",
+        "Ideal for forgetful gardeners.",
+        "Range of sizes available."
+      ],
+      "sku": "8496774417"
+    },
+    {
+      "id": 28,
+      "name": "Plastic Nursery Pot",
+      "price": 17.39,
+      "originalPrice": 20.29,
+      "category": "pots",
+      "size": "medium",
+      "image": "../images/pot-3.png",
+      "images": [
+        "../images/pot-3.png",
+        "../images/pot.png",
+        "../images/pot-1.png"
+      ],
+      "description": "Lightweight, basic garden pot",
+      "rating": "\u2605\u2605\u2605\u2606\u2606",
+      "isNew": false,
+      "onSale": false,
+      "longdetails": "The Plastic Nursery Pot is a functional and aesthetic choice for showing off your favorite plants. Good drainage ensures root health, while varied shapes fit different decor styles\u2014traditional, modern, or rustic. Many pots are light enough to move yet robust to withstand years of use. Whether you\u2019re planting succulents, herbs, or flowering plants, the right pot sets the stage for healthy growth and easy care. To care for Plastic Nursery Pot, provide lightweight, basic garden pot. Re-pot or prune as needed for size and health. Popular for both homes and offices, Plastic Nursery Pot suits pots spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Lightweight for moving.",
+        "Good for propagation.",
+        "Economical bulk purchase.",
+        "Drains easily."
+      ],
+      "sku": "2594187769"
+    },
+    {
+      "id": 29,
+      "name": "Herb Seed Kit",
+      "price": 24.34,
+      "originalPrice": 29.43,
+      "category": "seeds",
+      "size": "small",
+      "image": "../images/seed.png",
+      "images": [
+        "../images/seed.png",
+        "../images/seed-2.png",
+        "../images/seed-3.png"
+      ],
+      "description": "Basil, parsley, chives",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": false,
+      "onSale": false,
+      "longdetails": "With the Herb Seed Kit, you can grow your own plants from scratch, fostering satisfaction as you watch seeds sprout, grow, and mature. Seed kits include clear planting instructions and are suitable for gardeners of all ages. Whether growing edible herbs or colorful blooms, these seeds provide a valuable learning experience while beautifying your space\u2014and often contribute to pollinator health as well. To care for Herb Seed Kit, provide basil, parsley, chives. Re-pot or prune as needed for size and health. Popular for both homes and offices, Herb Seed Kit suits seeds spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Includes several herbs.",
+        "Easy instructions provided.",
+        "Quick germination.",
+        "Grow indoors or out.",
+        "Fresh flavor for dishes."
+      ],
+      "sku": "1767464947"
+    },
+    {
+      "id": 30,
+      "name": "Sunflower Seeds",
+      "price": 13.58,
+      "originalPrice": 21.85,
+      "category": "seeds",
+      "size": "small",
+      "image": "../images/seed-3.png",
+      "images": [
+        "../images/seed-3.png",
+        "../images/seed-1.png",
+        "../images/seed.png"
+      ],
+      "description": "Tall, golden blooms",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": true,
+      "onSale": true,
+      "longdetails": "With the Sunflower Seeds, you can grow your own plants from scratch, fostering satisfaction as you watch seeds sprout, grow, and mature. Seed kits include clear planting instructions and are suitable for gardeners of all ages. Whether growing edible herbs or colorful blooms, these seeds provide a valuable learning experience while beautifying your space\u2014and often contribute to pollinator health as well. To care for Sunflower Seeds, provide tall, golden blooms. Re-pot or prune as needed for size and health. Popular for both homes and offices, Sunflower Seeds suits seeds spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Grows very tall.",
+        "Needs direct sunlight.",
+        "Giant golden flower heads.",
+        "Seed heads attract birds.",
+        "Fast growing."
+      ],
+      "sku": "9652293497"
+    },
+    {
+      "id": 31,
+      "name": "Tomato Seeds",
+      "price": 32.02,
+      "originalPrice": 24.78,
+      "category": "seeds",
+      "size": "small",
+      "image": "../images/seed-2.png",
+      "images": [
+        "../images/seed-2.png",
+        "../images/seed.png",
+        "../images/seed-1.png"
+      ],
+      "description": "Juicy red fruit",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": false,
+      "onSale": false,
+      "longdetails": "With the Tomato Seeds, you can grow your own plants from scratch, fostering satisfaction as you watch seeds sprout, grow, and mature. Seed kits include clear planting instructions and are suitable for gardeners of all ages. Whether growing edible herbs or colorful blooms, these seeds provide a valuable learning experience while beautifying your space\u2014and often contribute to pollinator health as well. To care for Tomato Seeds, provide juicy red fruit. Re-pot or prune as needed for size and health. Popular for both homes and offices, Tomato Seeds suits seeds spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Choose determinate/indeterminate.",
+        "Needs warm soil.",
+        "Excellent for container gardening.",
+        "Produces juicy fruit.",
+        "Frequent feeding helps."
+      ],
+      "sku": "1356579086"
+    },
+    {
+      "id": 32,
+      "name": "Wildflower Mix",
+      "price": 22.59,
+      "originalPrice": 36.02,
+      "category": "seeds",
+      "size": "small",
+      "image": "../images/seed-1.png",
+      "images": [
+        "../images/seed-1.png",
+        "../images/seed-2.png",
+        "../images/seed.png"
+      ],
+      "description": "Mixed native blossoms",
+      "rating": "\u2605\u2605\u2605\u2606\u2606",
+      "isNew": true,
+      "onSale": true,
+      "longdetails": "With the Wildflower Mix, you can grow your own plants from scratch, fostering satisfaction as you watch seeds sprout, grow, and mature. Seed kits include clear planting instructions and are suitable for gardeners of all ages. Whether growing edible herbs or colorful blooms, these seeds provide a valuable learning experience while beautifying your space\u2014and often contribute to pollinator health as well. To care for Wildflower Mix, provide mixed native blossoms. Re-pot or prune as needed for size and health. Popular for both homes and offices, Wildflower Mix suits seeds spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Supports pollinators.",
+        "Bright mixed blooms.",
+        "Easy from seed.",
+        "Tolerates poor soil.",
+        "Naturalizes quickly."
+      ],
+      "sku": "4488599401"
+    },
+    {
+      "id": 33,
+      "name": "Pruning Shears",
+      "price": 15.36,
+      "originalPrice": 20.45,
+      "category": "accessories",
+      "size": "large",
+      "image": "../images/tools.png",
+      "images": [
+        "../images/tools.png",
+        "../images/tools-2.png",
+        "../images/tools-3.png"
+      ],
+      "description": "Blade tool for stems",
+      "rating": "\u2605\u2605\u2605\u2606\u2606",
+      "isNew": false,
+      "onSale": true,
+      "longdetails": "A Pruning Shears is essential for any gardener or plant parent. This accessory solves common care challenges by making tasks easier, neater, or more effective. Durable and designed for regular use, these tools stand up to frequent work indoors or outdoors. With the right accessories, plant care is more enjoyable, yielding healthier, more beautiful plants. To care for Pruning Shears, provide blade tool for stems. Re-pot or prune as needed for size and health. Popular for both homes and offices, Pruning Shears suits accessories spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Sharp steel blades.",
+        "Comfort grip handle.",
+        "For fresh and woody stems.",
+        "Spring-action for ease.",
+        "Safety locking feature."
+      ],
+      "sku": "0766427074"
+    },
+    {
+      "id": 34,
+      "name": "Watering Can",
+      "price": 32.35,
+      "originalPrice": 15.32,
+      "category": "accessories",
+      "size": "large",
+      "image": "../images/tools-1.png",
+      "images": [
+        "../images/tools-1.png",
+        "../images/tools.png",
+        "../images/tools-3.png"
+      ],
+      "description": "Pour spouted for plants",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": false,
+      "onSale": true,
+      "longdetails": "A Watering Can is essential for any gardener or plant parent. This accessory solves common care challenges by making tasks easier, neater, or more effective. Durable and designed for regular use, these tools stand up to frequent work indoors or outdoors. With the right accessories, plant care is more enjoyable, yielding healthier, more beautiful plants. To care for Watering Can, provide pour spouted for plants. Re-pot or prune as needed for size and health. Popular for both homes and offices, Watering Can suits accessories spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Long narrow spout.",
+        "Holds 2 liters.",
+        "Rust-resistant metal.",
+        "Balanced for easy pouring.",
+        "Gentle shower head."
+      ],
+      "sku": "4052312728"
+    },
+    {
+      "id": 35,
+      "name": "Plant Support Stakes",
+      "price": 25.69,
+      "originalPrice": 11.74,
+      "category": "accessories",
+      "size": "large",
+      "image": "../images/tools-2.png",
+      "images": [
+        "../images/tools-2.png",
+        "../images/tools-1.png",
+        "../images/tools.png"
+      ],
+      "description": "Holds tall stems upright",
+      "rating": "\u2605\u2605\u2605\u2605\u2606",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "A Plant Support Stakes is essential for any gardener or plant parent. This accessory solves common care challenges by making tasks easier, neater, or more effective. Durable and designed for regular use, these tools stand up to frequent work indoors or outdoors. With the right accessories, plant care is more enjoyable, yielding healthier, more beautiful plants. To care for Plant Support Stakes, provide holds tall stems upright. Re-pot or prune as needed for size and health. Popular for both homes and offices, Plant Support Stakes suits accessories spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Green painted steel.",
+        "Holds vining plants upright.",
+        "Easy to insert and use.",
+        "Won't rust outdoors.",
+        "Blends with garden beds."
+      ],
+      "sku": "6430133744"
+    },
+    {
+      "id": 36,
+      "name": "Grow Light Panel",
+      "price": 17.22,
+      "originalPrice": 44.77,
+      "category": "accessories",
+      "size": "medium",
+      "image": "../images/tools.png",
+      "images": [
+        "../images/tools.png",
+        "../images/tools-2.png",
+        "../images/tools-1.png"
+      ],
+      "description": "LED light for growth",
+      "rating": "\u2605\u2605\u2605\u2605\u2605",
+      "isNew": true,
+      "onSale": false,
+      "longdetails": "A Grow Light Panel is essential for any gardener or plant parent. This accessory solves common care challenges by making tasks easier, neater, or more effective. Durable and designed for regular use, these tools stand up to frequent work indoors or outdoors. With the right accessories, plant care is more enjoyable, yielding healthier, more beautiful plants. To care for Grow Light Panel, provide led light for growth. Re-pot or prune as needed for size and health. Popular for both homes and offices, Grow Light Panel suits accessories spaces and brings easy, beautiful greenery to your environment.",
+      "specification": [
+        "Full-spectrum LED.",
+        "Boosts indoor plant growth.",
+        "Adjustable brightness.",
+        "Low energy use.",
+        "Includes hanging kit."
+      ],
+      "sku": "1421029586"
     }
   ]
 }
